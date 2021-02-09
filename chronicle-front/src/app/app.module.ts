@@ -54,6 +54,7 @@ import { FilterComponent } from './components/filter/filter.component';
 import { TokenInterceptorService } from './services/token-interceptor.service';
 import { ResponseInterceptorService } from './services/response-interceptor.service';
 import { WhitelistSelectComponent } from './components/whitelist-select/whitelist-select.component';
+import { MediaDlButtonComponent } from './media-dl-button/media-dl-button.component';
 
 
 
@@ -94,6 +95,7 @@ const firebaseUiAuthConfig: firebaseui.auth.Config = {
     AttributionComponent,
     UploadpageComponent,
     WhitelistSelectComponent,
+    MediaDlButtonComponent,
   ],
   imports: [
     HttpClientModule,
